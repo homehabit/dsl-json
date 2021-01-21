@@ -130,7 +130,7 @@ public class CompiledJsonAnnotationProcessor extends AbstractProcessor {
 
 	private LogLevel logLevel = LogLevel.ERRORS;
 	private AnnotationUsage annotationUsage = AnnotationUsage.IMPLICIT;
-	private UnknownTypes unknownTypes = UnknownTypes.ERROR;
+	private UnknownTypes unknownTypes = UnknownTypes.ALLOW;
 	private boolean withJackson = false;
 	private boolean withJsonb = false;
 	private String configurationFileName = null;
